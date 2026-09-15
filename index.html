@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>criShop</title>
+
+
+    <!-- FUENTES -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Pacifico&display=swap"
+          rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         BARRA DE NAVEGACIÓN
+    ================================================== -->
+
+    <header class="navbar">
+
+
+        <!-- LOGO -->
+
+        <!-- Al hacer clic regresa al inicio -->
+
+        <a href="#inicio"
+           class="logo">
+
+            <img
+                src="imagenes/logoazul.png"
+                alt="Logo de criShop">
+
+        </a>
+
+
+
+        <!-- MENÚ -->
+
+        <nav class="menu">
+
+
+            <a href="#inicio"
+               class="active">
+
+                Inicio
+
+            </a>
+
+
+            <a href="#productos">
+
+                Productos
+
+                <span class="arrow">
+                
+                </span>
+
+            </a>
+
+
+            <a href="#sobre">
+
+                Sobre la tienda
+
+            </a>
+
+
+            <a href="#contacto">
+
+                Contactame
+
+            </a>
+
+            <a href="#entregas">
+
+                Puntos de entrega y envios
+
+            </a>
+
+            <a href="https://drive.google.com/drive/folders/1rfJTuCO728IGWXjjDauq3MQJJTsFyAx7?usp=sharing" target="_blank">
+    Referencias
+</a>
+
+
+            <span class="separator"></span>
+
+
+            <a href="#cesta"
+               class="cart">
+
+                ⋆˙⟡
+
+                <span>
+                    Cesta
+                </span>
+
+                <span id="contadorCarrito">
+                    0
+                </span>
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         INICIO
+    ================================================== -->
+
+    <main id="inicio"
+          class="hero">
+
+
+        <div class="overlay"></div>
+
+
+        <section class="hero-content">
+
+
+            <h1>
+              "Al amanecer, cuando la <br>
+                imaginación se desate, <br>
+                te invitaré a mi universo"
+
+            </h1>
+
+
+            <p>
+
+                Nunca olvides la magia de comprar,<br>
+                no solo por el producto, <br>
+                si no por todo el trabajo que has hecho <br>
+                para llegar a el. <br>
+
+            </p>
+
+
+            <a href="#productos"
+               class="ver-productos">
+
+                Ver productos
+
+            </a>
+
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         PRODUCTOS
+    ================================================== -->
+
+    <section id="productos"
+             class="productos-section">
+
+
+        <h2>
+
+            Productos del mes de ₊𖥔 Agosto ׄ໑୧ ׅ
+
+        </h2>
+
+
+
+        <div class="productos-contenedor">
+
+
+           <section class="productos-menu">
+
+
+    <div
+        class="productos-ventana"
+        id="productosVentana">
+
+        <div
+            class="productos-menu-lista"
+            id="productosMenuLista">
+
+            <!-- LOS PRODUCTOS SE GENERAN CON JAVASCRIPT -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+                <!-- ======================================
+                     PRODUCTO 1
+                ======================================= -->
+
+                <article
+                    class="producto"
+                    onclick="abrirProducto(0)">
+
+
+                    <div class="producto-imagen">
+
+                        <img
+                            src="imagenes/bean.jpg"
+                            alt="Bean Essence-Mixsoon">
+
+                    </div>
+
+
+                    <div class="producto-info">
+
+                        <h3>
+                            Bean Essence-Mixsoon
+                        </h3>
+
+                        <p>
+                            320.00 MXN
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     PRODUCTO 2
+                ======================================= -->
+
+                <article
+                    class="producto"
+                    onclick="abrirProducto(1)">
+
+
+                    <div class="producto-imagen">
+
+                        <img
+                            src="imagenes/beansun.jpg"
+                            alt="Bean Sun Serum-Mixsoon">
+
+                    </div>
+
+
+                    <div class="producto-info">
+
+                        <h3>
+                            Bean Sun Serum 50+ FPS-Mixsoon
+                        </h3>
+
+                        <p>
+                            220.00 MXN
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     PRODUCTO 3
+                ======================================= -->
+
+                <article
+                    class="producto"
+                    onclick="abrirProducto(2)">
+
+
+                    <div class="producto-imagen">
+
+                        <img
+                            src="imagenes/1004ps.jpg"
+                            alt="SKIN1004 - Sérum Solar Madagascar Centella Hyalu-Cica Water-Fit">
+
+                    </div>
+
+
+                    <div class="producto-info">
+
+                        <h3>
+                            SKIN1004 - Sérum Solar Madagascar Centella
+                             Hyalu-Cica
+                        </h3>
+
+                        <p>
+                            340.00 MXN
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     PRODUCTO 4
+                ======================================= -->
+
+                <article
+                    class="producto"
+                    onclick="abrirProducto(3)">
+
+
+                    <div class="producto-imagen">
+
+                        <img
+                            src="imagenes/balsamomix.jpg"
+                            alt="Bálsamo Labial Vegano Nutritivo">
+
+                    </div>
+
+
+                    <div class="producto-info">
+
+                        <h3>
+                            Bálsamo Labial Vegano Nutritivo-Mixsoon
+                        </h3>
+
+                        <p>
+                            195.00 MXN
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- BOTÓN -->
+
+        <button
+    type="button"
+    onclick="abrirCatalogo()"
+    class="btn-ver-todos">
+
+    Ver todos los productos
+
+</button>
+
+
+    </section>
+
+
+
+
+    <!-- ==================================================
+         MODAL DEL PRODUCTO
+    ================================================== -->
+
+    <div
+        class="modal"
+        id="modalProducto">
+
+
+        <div class="modal-contenido">
+
+
+            <!-- BOTÓN CERRAR -->
+
+            <button
+                class="cerrar"
+                type="button"
+                onclick="cerrarProducto()">
+
+                &times;
+
+            </button>
+
+
+
+            <!-- ==================================================
+                 GALERÍA DE IMÁGENES
+            ================================================== -->
+
+            <div class="galeria">
+
+
+                <!-- FLECHA IZQUIERDA -->
+
+                <button
+                    class="imagen-flecha imagen-anterior"
+                    type="button"
+                    onclick="imagenAnterior()">
+
+                    &#10094;
+
+                </button>
+
+
+
+                <!-- IMAGEN PRINCIPAL -->
+
+                <img
+                    id="modalImagen"
+                    src=""
+                    alt="Producto">
+
+
+
+                <!-- FLECHA DERECHA -->
+
+                <button
+                    class="imagen-flecha imagen-siguiente"
+                    type="button"
+                    onclick="imagenSiguiente()">
+
+                    &#10095;
+
+                </button>
+
+
+
+                <!-- INDICADORES -->
+
+                <div
+                    class="indicadores"
+                    id="indicadores">
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 INFORMACIÓN DEL PRODUCTO
+            ================================================== -->
+
+            <div class="modal-info">
+
+
+                <span class="categoria">
+
+                    
+
+                </span>
+
+
+                <h2 id="modalNombre">
+
+                    Producto
+
+                </h2>
+
+
+                <div
+                    class="modal-precio"
+                    id="modalPrecio">
+
+                    00.00 MXN
+
+                </div>
+
+
+                <p id="modalDescripcion">
+
+                    Descripción del producto.
+
+                </p>
+
+
+
+                <!-- CARACTERÍSTICAS -->
+
+                <div class="caracteristicas">
+
+
+                    <div>
+
+                        <strong>
+                            Ingredientes
+                        </strong>
+
+                        <span id="modalMaterial">
+                            Algodón
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Tamaño
+                        </strong>
+
+                        <span id="modalMedidas">
+                            45 × 45 cm
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Recomendado para
+                        </strong>
+
+                        <span id="modalFabricacion">
+                            Artesanal
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+ <!-- ==================================================
+     SELECTOR DE COLOR
+================================================== -->
+
+<div
+    class="selector-colores"
+    id="selectorColores">
+
+    <h4>
+        Color:
+    </h4>
+
+    <select
+        id="selectColor"
+        class="select-color">
+
+        <option value="">
+            Selecciona un color
+        </option>
+
+    </select>
+
+</div>
+
+
+
+                <!-- CANTIDAD -->
+
+                <div class="cantidad">
+
+
+                    <button
+                        type="button"
+                        onclick="cambiarCantidad(-1)">
+
+                        −
+
+                    </button>
+
+
+                    <span id="cantidad">
+                        1
+                    </span>
+
+
+                    <button
+                        type="button"
+                        onclick="cambiarCantidad(1)">
+
+                        +
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- AÑADIR -->
+
+                <button
+                    class="btn-carrito"
+                    type="button"
+                    onclick="agregarAlCarrito()">
+
+                     AÑADIR A LA CESTA
+
+                </button>
+
+
+                <p
+                    class="mensaje-carrito"
+                    id="mensajeCarrito">
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ==================================================
+         CESTA
+    ================================================== -->
+
+    <section
+        id="cesta"
+        class="cesta-section">
+
+
+        <h2>
+            Tu cesta
+        </h2>
+
+
+        <div id="contenidoCesta">
+
+            <p class="cesta-vacia">
+
+                Tu cesta está vacía.
+
+            </p>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- ==================================================
+         CONTACTO
+    ================================================== -->
+
+    <section
+        id="contacto"
+        class="contacto-section">
+
+
+        <h2>
+            Contacto
+        </h2>
+
+
+        <p>
+            No encontraste lo que buscabas? Tranquila/o!! Mandame mensaje <br>
+            y hare lo posible por conseguir el producto que tanto deseas 𖹭
+        </p>
+
+        <br>
+
+        <div class="contacto-botones">
+
+        <!-- WHATSAPP -->
+
+        <a
+            href="https://wa.me/525581567049"
+            target="_blank"
+            class="contacto-whatsapp">
+
+             WhatsApp
+
+        </a>
+
+        <br>
+        <br>
+
+
+        <!-- INSTAGRAM -->
+
+        <a
+            href="https://www.instagram.com/_crishop_07/"
+            target="_blank"
+            class="contacto-instagram">
+
+             Instagram
+
+        </a>
+
+    </div>
+
+    <br>
+    <br>
+
+    <P>
+        De igual forma si tienes alguna duda, queja o <br>
+        sugerencia espero tu mensaje!!
+
+    </P>
+
+
+    </section>
+
+    <!-- ==================================================
+         SOBRE NOSOTROS
+    ================================================== -->
+
+    <section id="sobre"
+             class="sobre-section">
+
+
+        <h2>
+            Sobre criShop
+        </h2>
+
+
+        <p>
+
+            Esta pequeña tienda tiene como origen el crear un espacio magico y acogedor para poder comprar productos del agrado 
+            de todo tipo de personas. Actualmente cuento con más de 4 años en operación y me siento feliz por todo el apoyo que he recibido de todas las personas a mi alrededor. La estetica esta fuertemente inspirada en el mini-albúm "Super Real Me" del grupo 
+            femenino ILLIT, ya que es una vibra que esta fuertemente asociada a mi persona, y siempre he pensado que para que un proyecto funcione, tiene que tener una parte de tu identidad.
+        </p>
+
+
+    </section>
+
+    <!-- ==================================================
+         PUNTOS DE ENTREGA
+    ================================================== -->
+
+    <section id="entregas"
+             class="entregas-section">
+
+
+        <h2>
+            Puntos de entrega y envios
+        </h2>
+
+
+        <p>
+            ⊹₊˚‧︵‿₊୨Puntos de entrega୧₊‿︵‧˚₊⊹ <br>
+
+            𝜗ৎ Chimalhuacan, Estado de México. <br>
+            𝜗ৎ Nezahualcoyotl, Estado de México. <br>
+            𝜗ৎ Los Reyes, La Paz. <br>
+            𝜗ৎ Lineas 1, 2, 5, 7 y 9 del metro de CDMX. <br>
+            
+        </p>
+
+<br>
+
+        <p>
+            ⊹₊˚‧︵‿₊୨Envios୧₊‿︵‧˚₊⊹ <br>
+
+            Envios a todo México por correo o paqueteria privada. <br>
+            El costo de envio va por cuenta del cliente y puede variar.
+
+        </p>
+
+
+
+    </section>
+
+
+
+
+
+    <!-- ==================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+
+        <p>
+            Gracias por visitarme  ᶻ 𝗓 𐰁 .ᐟ
+        </p>
+
+    </footer>
+
+
+
+    <!-- NOTIFICACIÓN -->
+
+    <div
+        class="notificacion"
+        id="notificacion">
+
+        Producto añadido a la cesta ✓
+
+    </div>
+
+    <!-- =========================================
+     VENTANA DEL CATÁLOGO COMPLETO
+========================================= -->
+<button
+    type="button"
+    class="btn-ver-todos"
+    onclick="abrirCatalogo()">
+
+    Ver productos
+
+</button>
+
+<div
+    class="modal-catalogo"
+    id="modalCatalogo">
+
+    <!-- ENCABEZADO -->
+
+    <div class="catalogo-contenedor">
+
+
+        <div class="catalogo-header">
+
+            <button
+                type="button"
+                class="btn-cerrar-catalogo"
+                onclick="cerrarCatalogo()">
+
+                ← Regresar
+
+            </button>
+
+
+            <h2>
+                Todos los productos
+            </h2>
+
+
+            <button
+                type="button"
+                class="cerrar-x-catalogo"
+                onclick="cerrarCatalogo()">
+
+                ×
+
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCTOS -->
+
+        <div
+            class="catalogo-productos"
+            id="catalogoProductos">
+
+            <!--
+                Los productos se crean
+                automáticamente con JavaScript.
+            -->
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+    <!-- =========================================
+     MODAL FINALIZAR PEDIDO
+========================================= -->
+
+<div class="modal-pedido" id="modalPedido">
+
+    <div class="pedido-contenedor">
+
+        <button
+            type="button"
+            class="cerrar-pedido"
+            onclick="cerrarPedido()">
+
+            ×
+
+        </button>
+
+
+        <h2>Finalizar pedido</h2>
+
+
+        <p class="pedido-texto">
+            Completa los datos para continuar con tu pedido.
+        </p>
+
+
+        <!-- NOMBRE -->
+
+        <div class="campo-pedido">
+
+            <label for="nombreCliente">
+                Nombre (No es necesario escribirlo completo)
+            </label>
+
+            <input
+                type="text"
+                id="nombreCliente"
+                placeholder="Escribe tu nombre">
+
+        </div>
+
+
+        <!-- MÉTODO DE PAGO -->
+
+        <div class="campo-pedido">
+
+            <label for="metodoPago">
+                Método de pago
+            </label>
+
+            <select id="metodoPago">
+
+                <option value="">
+                    Selecciona un método
+                </option>
+
+                <option value="Transferencia bancaria/deposito">
+                    Transferencia bancaria/deposito
+                </option>
+
+                <option value="Pago al recibir">
+                    Pago al recibir
+                </option>
+
+                <option value="Pago en abonos">
+                    Pago en abonos (Se requiere un historial de compras previo)
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- MÉTODO DE ENTREGA -->
+
+        <div class="campo-pedido">
+
+            <label for="metodoEntrega">
+                Método de entrega
+            </label>
+
+            <select id="metodoEntrega">
+
+                <option value="">
+                    Selecciona una opción
+                </option>
+
+                <option value="Envío a domicilio">
+                    Envío a domicilio
+                </option>
+
+
+                <option value="Punto de entrega">
+                    Punto de entrega (Revisar puntos de entrega)
+                </option>
+
+                <option value="Punto de entrega">
+                    Entrega personal
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- BOTÓN -->
+
+        <button
+            type="button"
+            class="btn-whatsapp"
+            onclick="enviarPedidoWhatsApp()">
+
+            Continuar a WhatsApp
+
+        </button>
+
+        <button
+    type="button"
+    class="btn-instagram"
+    onclick="prepararPedidoInstagram()">
+
+     Continuar por Instagram
+
+</button>
+
+    </div>
+
+</div>
+
+<!-- =========================================
+     AVISO PEDIDO COPIADO PARA INSTAGRAM
+========================================= -->
+
+<div
+    class="modal-instagram"
+    id="modalInstagram">
+
+    <div class="instagram-contenedor">
+
+        <div class="instagram-icono">
+
+            ✓
+
+        </div>
+
+
+        <h2>
+            ¡Pedido copiado!
+        </h2>
+
+
+        <p>
+            Tu pedido se ha copiado automáticamente.
+        </p>
+
+
+        <p class="instagram-explicacion">
+
+            Al abrir el chat de Instagram,
+            mantén presionado el espacio para escribir
+            y selecciona <strong>"Pegar"</strong>. O si
+            estas desde una computadora simplemente usa
+            <strong>"Control+V"</strong>
+
+        </p>
+
+
+        <button
+            type="button"
+            class="btn-entendido"
+            onclick="abrirInstagram()">
+
+            Entendido
+
+        </button>
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
